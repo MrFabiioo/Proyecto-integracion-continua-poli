@@ -9,7 +9,18 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "sequelize-cli": "^6.6.0"
+  },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "sequelize": "^6.30.0",
+    "@hapi/boom": "^9.1.4",
+    "joi": "^17.4.2"
   }
 }
